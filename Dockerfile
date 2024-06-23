@@ -2,7 +2,7 @@
 FROM ubuntu:20.04
 
 # Install wget, gcc, dan perangkat lunak yang dibutuhkan
-RUN apt-get update && apt-get install -y wget gcc
+RUN apt-get update && apt-get install -y wget gcc libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
 
 # Set WORKDIR ke /usr/bin sehingga semua operasi selanjutnya dilakukan dalam direktori ini
 WORKDIR /usr/bin
